@@ -9,10 +9,10 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 ##
 
 ## Installations
-* First of all should an IDE (VSCODE etc.) : [VSCode](https://code.visualstudio.com/)
-* First of all should install Node.js : [Download Link](https://nodejs.org/en/)
-* Second, download and install MongoDB  : [Windows-x86_64-4.4.4-signed.msi](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.4-signed.msi)
-* Third, you should install npm on your Node.js with the folowing steps :
+* First of all you should have an IDE (VSCODE etc.) : [VSCode](https://code.visualstudio.com/)
+* Download and Install Node.js : [Download Link](https://nodejs.org/en/)
+* Download and install MongoDB : [Windows-x86_64-4.4.4-signed.msi](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.4-signed.msi)
+* For your Node.js, you should install npm from IDE terminal with the folowing steps :
                
         npm install -g npm
         
