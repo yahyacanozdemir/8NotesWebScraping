@@ -8,7 +8,7 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 ![web-scraping-attack](https://user-images.githubusercontent.com/43846778/120050147-02e7ca00-c025-11eb-8401-03d69f6eda8e.jpg)
 ##
 
-
+## Installations
 
 
 
