@@ -9,6 +9,7 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 ##
 
 ## Installations
+* [First of all should install Node.js] (https://nodejs.org/en/)
 
 
 
