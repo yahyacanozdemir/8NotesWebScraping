@@ -12,9 +12,17 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 * First of all you should have an IDE (VSCODE etc.) : [VSCode](https://code.visualstudio.com/)
 * Download and Install Node.js : [Download Link](https://nodejs.org/en/)
 * Download and install MongoDB : [Windows-x86_64-4.4.4-signed.msi](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.4-signed.msi)
-* For your Node.js, you should install npm from IDE terminal with the folowing steps :
+* For your Node.js, you should install npm from IDE terminal with the folowing command :
                
         npm install -g npm
+        
+* After installing npm, you should install the Selenium webdriver module from npm with the following command :
+
+        npm i selenium-webdriver
+
+* Finally, you can download the yargs packet on npm (project in this repo uses yargs package) : 
+
+        npm i yargs
         
 
 
