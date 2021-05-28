@@ -6,6 +6,13 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
     Be it a spreadsheet, json file, txt file, database collection or an API.
 
 ![web-scraping-attack](https://user-images.githubusercontent.com/43846778/120050147-02e7ca00-c025-11eb-8401-03d69f6eda8e.jpg)
+##
+
+
+
+
+
+
 ![mongodb1](https://user-images.githubusercontent.com/43846778/120050119-e0ee4780-c024-11eb-8fb2-9fbeb11d66f6.png)
 ![mongodb2](https://user-images.githubusercontent.com/43846778/120050110-ddf35700-c024-11eb-93d3-dcbaac16f82f.png)
 ![mongodb3](https://user-images.githubusercontent.com/43846778/120050112-de8bed80-c024-11eb-8ea9-b7640a443b15.png)
@@ -17,7 +24,7 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 
 
 
-##
+
 
 ## İndirme ve Test Bağlantısı(Android)
 [APK](https://drive.google.com/file/d/1aTdLSPRiaiii6Aw9ugnSJr7AuRVkvv1F/view?usp=sharing)
