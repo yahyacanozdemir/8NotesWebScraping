@@ -22,7 +22,7 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
         
  
 
-* You should download the yargs package using npm (project in this repo uses yargs package) : 
+* You should download the yargs package using npm : 
 
         npm i yargs
         
