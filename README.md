@@ -1,6 +1,10 @@
 # Term Project for BTU BLM0470 Web Programming with Node.js
 This node.js program scrapes www.8notes.com with selenium web driver and stores the resulting data as json file in MongoDB. As an additional feature, it is possible to save results in a txt file.
 
+##
+
+## What is Web Scraping ?
+
     Web scraping refers to the extraction of data from a website. 
     This information is collected and then exported into a format that is more useful for the user. 
     Be it a spreadsheet, json file, txt file, database collection or an API.
