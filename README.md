@@ -39,18 +39,6 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
         
 ##
 
-## Attention
-
-* This program stores your query result as json file then saves it to MongoDB. This feature can needs a local MongoDB account or require configure for database. You can easily configure the database on the database.js file. 
-* If you want to test program but don't want to any database connections you can comment database codes (const jsonFile = json_class.loadJson() database.insertDatabase()) and activate other comment codes(write_txt_class.writeTXT etc.) on result.js file.
-
-* MongoDB connection only tested with the following command :
-
-        node app.js fetch-only --instrument="piano"      
-
-
-##
-
 ## Project Test Commands
 * Artist Query :
 
@@ -68,6 +56,17 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 * Query for All Content of Website  :
 
         node app.js fetch-all
+        
+##
+
+## Attention
+
+* This program stores your query result as json file then saves it to MongoDB. This feature can needs a local MongoDB account or require configure for database. You can easily configure the database on the database.js file. 
+* If you want to test program but don't want to any database connections you can comment database codes (const jsonFile = json_class.loadJson() database.insertDatabase()) and activate other comment codes(write_txt_class.writeTXT etc.) on result.js file.
+
+* MongoDB connection only tested with the following command :
+
+        node app.js fetch-only --instrument="piano"     
         
 ##
 
