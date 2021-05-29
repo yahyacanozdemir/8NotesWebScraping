@@ -16,7 +16,7 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
                
         npm install -g npm
         
-* After installing npm, you should install the Selenium webdriver module from npm with the following command (This version of ChromeDriver only supports Chrome version 89) :
+* After installing npm, you should install the Selenium webdriver module from npm with the following command (This version of ChromeDriver only supports Chrome version 89 for now) :
 
         npm i selenium-webdriver
 
