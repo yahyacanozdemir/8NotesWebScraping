@@ -4,7 +4,7 @@ const { Builder, By, Key, until } = require('selenium-webdriver');
 const { promisify } = require('util')
 const write_txt_class = require('./write_txt.js')
 const json_class = require('./write_json.js')
-const database = require('./database.js')
+    //const database = require('./database.js')
 
 
 const webdriver = require('selenium-webdriver');
@@ -132,7 +132,7 @@ const lookAtPage = async function(value, link) {
                     }
 
                     detailPageAboutString = detailPageAboutString.replaceAll("\n", " ");
-                    //json_class.insertJson(filename, value, artist, title, difficult, detailPageLink, detailPageImgLink, detailPageMidiLink, detailPageAboutString);
+                    json_class.insertJson(filename, value, artist, title, difficult, detailPageLink, detailPageImgLink, detailPageMidiLink, detailPageAboutString);
                     //end of about scraping
                 } catch (error) {
                     console.log(chalk.red.inverse('Detail Page Scraping Error : ' + error));
@@ -143,8 +143,8 @@ const lookAtPage = async function(value, link) {
             }
             await sleep(1500);
         }
-        const jsonFile = json_class.loadJson(filename);
-        database.insertDatabase(jsonFile);
+        //const jsonFile = json_class.loadJson(filename);
+        //database.insertDatabase(jsonFile);
     } catch (error) {
         console.log(chalk.red.inverse("Musics Page Scraping Error : " + error));
     } finally {
