@@ -26,18 +26,23 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
         
 ##
 
-## Project Text Commands
+## Project Test Commands
 * Artist Query :
 
         node app.js fetch-only --artist="mozart" 
         
-* Instrumant Query :
+* Query for Instrumant :
 
         node app.js fetch-only --instrument="piano" 
         
-* Style Query :
+* Query for Style  :
 
-        node app.js fetch --style="classical"
+        node app.js fetch-only --style="classical"
+        
+
+* Query for All Content of Website  :
+
+        node app.js fetch-all
         
 
 
