@@ -60,8 +60,11 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
 
 ## Images
 ![mongodb1](https://user-images.githubusercontent.com/43846778/120052566-9a054f80-c02e-11eb-9060-a844fc46ac7d.jpg)
-![mongoDB2](https://user-images.githubusercontent.com/43846778/120052729-59f29c80-c02f-11eb-9f2b-693fccd31538.jpg)
+##
 ![mongoDB3](https://user-images.githubusercontent.com/43846778/120052733-5c54f680-c02f-11eb-99a6-956a613e3ccc.jpg)
+##
+![mongoDB2](https://user-images.githubusercontent.com/43846778/120052729-59f29c80-c02f-11eb-9f2b-693fccd31538.jpg)
+
 
 
 
