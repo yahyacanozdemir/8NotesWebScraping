@@ -1,5 +1,5 @@
 # Term Project for BTU BLM0470 Web Programming with Node.js
-This node.js program scrapes www.8notes.com with selenium web driver and stores the resulting data in MongoDB, txt file or json file.
+This node.js program scrapes www.8notes.com with selenium web driver and stores the resulting data as json file in MongoDB. As an additional feature, it is possible to save results in a txt file.
 
     Web scraping refers to the extraction of data from a website. 
     This information is collected and then exported into a format that is more useful for the user. 
@@ -16,26 +16,27 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
                
         npm install -g npm
         
-* After installing npm, you should install the Selenium webdriver module from npm with the following command (This version of ChromeDriver only supports Chrome version 89 for now) :
+* After installing npm, you should install the Selenium webdriver module using npm with the following command (This version of ChromeDriver only supports Chrome version 89 for now) :
 
         npm i selenium-webdriver
+        
+ 
 
-* Finally, you can download the yargs packet on npm (project in this repo uses yargs package) : 
+* You should download the yargs package using npm : 
 
         npm i yargs
         
-##
+        
+* Finally, you can install the yargs package using npm (project in this repo uses chalk package) : 
 
-## Attention
+        npm i chalk
 
-* This program stores your query result as json file then saves it to MongoDB. This feature can needs a local MongoDB account or require configure for database. You can easily configure the database on the database.js file. 
-* If you want to test program but don't want to any database connections you can activate comment codes (write_txt_class.writeTXT etc.) or you can comment database codes (const jsonFile = json_class.loadJson(filename); database.insertDatabase(jsonFile);) in result.js file.
+* If you encounter an error while running the project (chromedriver version error etc.), you can remove the chromedriver package and add it again with the folowing command :
+        
+        npm uninstall chromedriver
+        npm install chromedriver
 
-* MongoDB connection tested with only the following command :
-
-        node app.js fetch-only --instrument="piano"      
-
-
+        
 ##
 
 ## Project Test Commands
@@ -58,7 +59,18 @@ This node.js program scrapes www.8notes.com with selenium web driver and stores 
         
 ##
 
-## Images
+## Attention
+
+* This program stores your query result as json file then saves it to MongoDB. This feature can needs a local MongoDB account or require configure for database. You can easily configure the database on the database.js file. 
+* If you want to test program but don't want to any database connections you can comment database codes (const jsonFile = json_class.loadJson() database.insertDatabase()) and activate other comment codes(write_txt_class.writeTXT etc.) on result.js file.
+
+* MongoDB connection only tested with the following command :
+
+        node app.js fetch-only --instrument="piano"     
+        
+##
+
+## Results
 ![mongodb1](https://user-images.githubusercontent.com/43846778/120052566-9a054f80-c02e-11eb-9060-a844fc46ac7d.jpg)
 ##
 ![mongoDB3](https://user-images.githubusercontent.com/43846778/120052733-5c54f680-c02f-11eb-99a6-956a613e3ccc.jpg)
